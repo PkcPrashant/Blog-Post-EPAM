@@ -26,7 +26,7 @@ header h4{
     margin-top: -25px;
 }
 main{
-    margin: 20px;
+    margin: 50px 110px;
 }
 article.topSection{
     display: flex;
@@ -60,7 +60,7 @@ button.subscribe{
 article.maincontent{
     display: flex;
     flex-direction: column;
-    margin: 0px;
+    margin: 20px 30% 20px 0px;
 }
 article.titleone{
     display: flex;
@@ -70,7 +70,7 @@ figure{
     margin: 0px;
 }
 img{
-    width: 200px;
+    width: 400px;
     height: 200px;
 }
 section.sectiontitle > h1{
@@ -101,16 +101,3 @@ footer{
     color: white;
     padding: 10px 0px;
 }
-@media only screen and (min-width: 768px) {
-    /* For desktop: */
-    main{
-        margin: 50px 110px;
-    }
-    article.maincontent{
-        margin: 20px 30% 20px 0px;
-    }
-    img{
-        width: 400px;
-        height: 200px;
-    }
-  }
