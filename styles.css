@@ -74,7 +74,7 @@ img{
     width: 200px;
     height: 200px;
 }
-section.sectiontitle > h1{
+section.sectiontitle > h2{
     margin: 0px;
 }
 section.sectiontitle{
@@ -128,7 +128,7 @@ footer{
     img{
         width: 100%;
     }
-    section.sectiontitle.sectiontitle{
+    section.sectiontitle{
         padding:0px;
     }
     article.topSection{
