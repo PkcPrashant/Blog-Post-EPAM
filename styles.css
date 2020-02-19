@@ -93,6 +93,9 @@ hr{
     font-weight: 100;
     color: gray;
 }
+div > p{
+    display: inline;
+}
 footer{
     position: fixed;
     bottom: 0px;
