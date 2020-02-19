@@ -26,7 +26,7 @@ header h4{
     margin-top: -25px;
 }
 main{
-    margin: 20px;
+    margin: 5px;
 }
 article.topSection{
     display: flex;
@@ -41,7 +41,7 @@ label{
     text-transform: uppercase;
 }
 select{
-    width: 180px;
+    width: 90px;
     height: 30px;
 }
 input{
@@ -113,4 +113,35 @@ footer{
         width: 400px;
         height: 200px;
     }
+    select{
+        width: 180px;
+        height: 30px;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    /* For mobile: */
+    article.titleone{
+        display: flex;
+        flex-direction: column;
+    }
+    img{
+        width: 100%;
+    }
+    section.sectiontitle.sectiontitle{
+        padding:0px;
+    }
+    article.topSection{
+        display: flex;
+        flex-direction: column;
+    }
+    section.inputfield{order: 1}
+    section.dropdown{
+        order: 2;
+        margin-top: 10px;
+    }
+    h1.mainHeading{
+        order: 3;
+        text-align: center;
+    }
+    
   }
